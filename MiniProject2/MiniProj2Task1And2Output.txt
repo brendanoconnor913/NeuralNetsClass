@@ -1,0 +1,67 @@
+>> MiniProject2
+
+REGSPREAD =
+
+   100
+
+NEWRB, neurons = 0, MSE = 0.928785
+    "train:0.4964"
+
+    "vald:0.51463"
+
+    "test:0.56762"
+
+
+EXACTSPREAD =
+
+   100
+
+    "train:2.6484e-21"
+
+    "vald:28042.9291"
+
+    "test:8851.4851"
+
+
+EXACTSPREAD =
+
+    85
+
+    "train:2.4673e-22"
+
+    "vald:5.0722"
+
+    "test:3.216"
+
+
+EXACTSPREAD =
+
+    70
+
+    "train:1.4745e-23"
+
+    "vald:776.8241"
+
+    "test:988.0504"
+
+
+EXACTSPREAD =
+
+    55
+
+    "train:7.5206e-26"
+
+    "vald:8.1391"
+
+    "test:15.309"
+
+
+EXACTSPREAD =
+
+    40
+
+    "train:1.2402e-27"
+
+    "vald:0.5173"
+
+    "test:0.36165"

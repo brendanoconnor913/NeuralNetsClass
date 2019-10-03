@@ -1,0 +1,9 @@
+Note that using mse is really rough approximate.
+
+ROC's are going to be biased because the values are typically between -1 and 1. Additionally these are approximations so we will see values greater than
+1 and less than -1. If one were to constrain the classification values to 
+1 and 0 the distance is so small it would be incredibly difficult to produce
+a model with a mse of .5 because this would require on average being a 
+distance of ~.7 (sqrt(.5)) from the target. To achieve this you would
+actively have to try to improperly train your model.
+ 

@@ -1,0 +1,128 @@
+>> ValdBasedStopping
+    "regspread: 100"
+
+NEWRB, neurons = 0, MSE = 0.92562
+    "valdmse: 0.72044"
+
+NEWRB, neurons = 0, MSE = 0.92562
+NEWRB, neurons = 51, MSE = 0.105078
+    "valdmse: 0.31154"
+
+NEWRB, neurons = 0, MSE = 0.92562
+NEWRB, neurons = 101, MSE = 0.0471891
+    "valdmse: 0.32394"
+
+NEWRB, neurons = 0, MSE = 0.92562
+NEWRB, neurons = 151, MSE = 0.0118859
+    "valdmse: 0.61269"
+
+NEWRB, neurons = 0, MSE = 0.92562
+NEWRB, neurons = 201, MSE = 0.00214568
+    "valdmse: 1.1682"
+
+NEWRB, neurons = 0, MSE = 0.92562
+NEWRB, neurons = 251, MSE = 0.000388921
+    "valdmse: 1.9147"
+
+NEWRB, neurons = 0, MSE = 0.92562
+NEWRB, neurons = 301, MSE = 4.35781e-05
+    "valdmse: 2.2494"
+
+    "regspread: 75"
+
+NEWRB, neurons = 0, MSE = 0.92562
+    "valdmse: 0.75962"
+
+NEWRB, neurons = 0, MSE = 0.92562
+NEWRB, neurons = 51, MSE = 0.153093
+    "valdmse: 0.15439"
+
+NEWRB, neurons = 0, MSE = 0.92562
+NEWRB, neurons = 101, MSE = 0.0570117
+    "valdmse: 0.27642"
+
+NEWRB, neurons = 0, MSE = 0.92562
+NEWRB, neurons = 151, MSE = 0.0127564
+    "valdmse: 0.55991"
+
+NEWRB, neurons = 0, MSE = 0.92562
+NEWRB, neurons = 201, MSE = 0.00247855
+    "valdmse: 0.67845"
+
+NEWRB, neurons = 0, MSE = 0.92562
+NEWRB, neurons = 251, MSE = 0.000325305
+    "valdmse: 0.78694"
+
+NEWRB, neurons = 0, MSE = 0.92562
+NEWRB, neurons = 301, MSE = 1.50445e-05
+    "valdmse: 0.85453"
+
+    "regspread: 50"
+
+NEWRB, neurons = 0, MSE = 0.92562
+    "valdmse: 0.81328"
+
+NEWRB, neurons = 0, MSE = 0.92562
+NEWRB, neurons = 51, MSE = 0.169275
+    "valdmse: 0.21964"
+
+NEWRB, neurons = 0, MSE = 0.92562
+NEWRB, neurons = 101, MSE = 0.0702074
+    "valdmse: 0.29948"
+
+NEWRB, neurons = 0, MSE = 0.92562
+NEWRB, neurons = 151, MSE = 0.0156105
+    "valdmse: 0.30361"
+
+NEWRB, neurons = 0, MSE = 0.92562
+NEWRB, neurons = 201, MSE = 0.0023897
+    "valdmse: 0.3629"
+
+NEWRB, neurons = 0, MSE = 0.92562
+NEWRB, neurons = 251, MSE = 0.000237747
+    "valdmse: 0.43561"
+
+NEWRB, neurons = 0, MSE = 0.92562
+NEWRB, neurons = 301, MSE = 1.70325e-05
+    "valdmse: 0.47689"
+
+    "regspread: 25"
+
+NEWRB, neurons = 0, MSE = 0.92562
+    "valdmse: 0.86452"
+
+NEWRB, neurons = 0, MSE = 0.92562
+NEWRB, neurons = 51, MSE = 0.262141
+    "valdmse: 0.37921"
+
+NEWRB, neurons = 0, MSE = 0.92562
+NEWRB, neurons = 101, MSE = 0.177835
+    "valdmse: 0.35937"
+
+NEWRB, neurons = 0, MSE = 0.92562
+NEWRB, neurons = 151, MSE = 0.0677791
+    "valdmse: 0.42653"
+
+NEWRB, neurons = 0, MSE = 0.92562
+NEWRB, neurons = 201, MSE = 0.0109256
+    "valdmse: 0.63808"
+
+NEWRB, neurons = 0, MSE = 0.92562
+NEWRB, neurons = 251, MSE = 0.000405995
+    "valdmse: 0.59711"
+
+NEWRB, neurons = 0, MSE = 0.92562
+NEWRB, neurons = 301, MSE = 4.84536e-05
+    "valdmse: 0.49621"
+
+    "optimal spread:75optimal nodes:51"
+
+    "min vald error: 0.15439"
+
+NEWRB, neurons = 0, MSE = 0.92562
+NEWRB, neurons = 51, MSE = 0.153093
+    "train:0.15309"
+
+    "vald:0.15439"
+
+    "test:0.2566"

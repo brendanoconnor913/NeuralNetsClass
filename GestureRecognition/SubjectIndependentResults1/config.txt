@@ -1,0 +1,3 @@
+config:
+nodes = 5
+depth = 1

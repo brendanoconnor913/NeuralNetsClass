@@ -1,0 +1,6 @@
+We see that partitioning the dataset in half and performing regression
+results in the same rank of subsets (same relative performance). 
+However, when we look at the AUC's we see the absolute performance
+decrease when not using all of the data for training (as expected).
+Particularly we see that when the subsets are limited to a few 
+features the lack of data has a greater impact on performance.

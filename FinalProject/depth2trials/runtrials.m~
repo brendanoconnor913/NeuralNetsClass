@@ -1,0 +1,24 @@
+
+
+
+dprime = genAutoEncoderExperiment([100,50,25],[400,100,50,25],[.004,.002, .001],4,[.15,.1,.5]);
+display(num2str(dprime))
+
+dprime = genAutoEncoderExperiment([100,50,5],[400,100,50,25],[.004,.002, .001],4,[.15,.1,.5]);
+display(num2str(dprime))
+
+dprime = genAutoEncoderExperiment([100,25,25],[400,100,50,25],[.004,.002, .001],4,[.15,.1,.5]);
+display(num2str(dprime))
+
+dprime = genAutoEncoderExperiment([100,25,5],[400,100,50,25],[.004,.002, .001],4,[.15,.1,.5]);
+display(num2str(dprime))
+
+dprime = genAutoEncoderExperiment([50,25,10],[400,100,50,25],[.004,.002, .001],4,[.15,.1,.5]);
+display(num2str(dprime))
+
+dprime = genAutoEncoderExperiment([50,25,5],[400,100,50,25],[.004,.002, .001],4,[.15,.1,.5]);
+display(num2str(dprime))
+
+dprime = genAutoEncoderExperiment([25,25,25],[400,100,50,25],[.004,.002, .001],4,[.15,.1,.5]);
+display(num2str(dprime))
+

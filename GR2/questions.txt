@@ -1,0 +1,11 @@
+Want single digit size output depth 
+
+Error using removedelay (line 57)
+Removing 1 to input delays would result in a negative input weight delay.
+
+Error in MiniProject3SubjectSpecific (line 48)
+        net     = removedelay(net);
+
+    Wouldn't we want to remove the delay for each iteration of training?
+        For subject specific we aren't reinitializing the network
+

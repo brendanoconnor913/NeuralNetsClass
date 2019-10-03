@@ -1,0 +1,17 @@
+Note: Images are named according the the specific config of network. 
+(Example performance.nodes2.tr0.4.reg0.1.png has 2 nodes training ratio of .4 and regularization of .1)
+
+We see across all number of nodes that when the regularization param is .1
+there seems to inevitably be a large spike in error for one of the iterations.
+This seems to indicate that there is still latent variance in the model that is 
+not being handled. When it is set to .5 it seems to do a better job of lowering
+the test and validation error but not the test error. It seems that all of the 
+non zero regularization params lead to overfitting due to the large test 
+error. Across the number of nodes there doesn't seem to be a super clear
+winner in terms of performance but the 50 node network across the different
+parameters seemed to perform best but not significantly better than 10. The
+2 node network did clearly the worst with really variable results. The most 
+surprising result though is in regards to the training ratios. Across the board
+for all of the different number of nodes the models trained with a .4/.6 training/validation
+split performed bettter than the .8/.2 split. I'm not completly sure if this
+is due to overfitting.
